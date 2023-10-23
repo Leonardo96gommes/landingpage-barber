@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Open+Sans:wght@400;600&family=Poppins:wght@400;900&family=Roboto:wght@300;500&family=Sora:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
     <title>barbearia</title>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <link rel="stylesheet" href="/style.css" />
     <link
       rel="stylesheet"
@@ -23,7 +26,7 @@
     <div class="bg-home">
       <header>
         <nav class="header-content container">
-          <div class="header-icons">
+          <div class="header-icons" data-aos="fade-down">
             <a href="#">
               <i class="fa-brands fa-instagram fa-2x"></i>
             </a>
@@ -34,14 +37,19 @@
               <i class="fa-brands fa-tiktok fa-2x"></i>
             </a>
           </div>
-          <div class="header-logo">
-            <img src="../assets/logo.svg" alt="Logo-da-barbearia" />
+          <div class="header-logo" data-aos="fade-up" data-aos-delay="300">
+            <img
+            data-aos="flip-up"
+            data-aos-delay="300"
+            data-aos-duration="1500"  
+            src="../assets/logo.svg" 
+            alt="Logo-da-barbearia" />
           </div>
-          <div class="header-button">
+          <div class="header-button" data-aos="fade-down">
             <a href="https://api.whatsapp.com/send?phone=5581989975952&text=Agende%20seu%20horário!">Agendar horário</a>
           </div>
         </nav>
-        <main class="hero container">
+        <main class="hero container" data-aos="fade-up" data-aos-delay="400">
           <h1>ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE.</h1>
           <p>
             Horário de funcionamento: <strong>09:00</strong> ás
@@ -53,11 +61,11 @@
     </div>
     <section class="about">
       <div class="container about-content">
-        <div>
+        <div data-aos="zoom-in" data-aos-delay="100">
           <img src="../assets/images.svg" alt="imagens sobre a barbearia" />
         </div>
 
-        <div class="about-description">
+        <div class="about-description" data-aos="zoom-out-left" data-aos-delay="250">
           <h2>Sobre</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur. Ornare eget pellentesque
@@ -82,8 +90,8 @@
         </p>
       </div>
       <section class="haircuts">
-        <div class="haircut">
-          <img src="./assets/corte1.png" alt="corte normal" />
+        <div class="haircut" data-aos="fade-up" data-aos-delay="150">
+          <img src="../assets/corte1.png" alt="corte normal" />
 
           <div class="haircut-info">
             <strong>Corte cabelo</strong>
@@ -91,8 +99,8 @@
           </div>
         </div>
 
-        <div class="haircut">
-          <img src="./assets/corte2.png" alt="Barba completa" />
+        <div class="haircut" data-aos="fade-up" data-aos-delay="300">
+          <img src="../assets/corte2.png" alt="Barba completa" />
 
           <div class="haircut-info">
             <strong>Barba completa</strong>
@@ -100,8 +108,8 @@
           </div>
         </div>
 
-        <div class="haircut">
-          <img src="./assets/corte3.png" alt="Corte e barba" />
+        <div class="haircut" data-aos="fade-up" data-aos-delay="450">
+          <img src="../assets/corte3.png" alt="Corte e barba" />
 
           <div class="haircut-info">
             <strong>Corte e barba</strong>
@@ -137,13 +145,15 @@
         </a>
       </div>
       <div>
-        <img src="./assets/logo.svg" alt="logo-barbearia" />
+        <img src="../assets/logo.svg" alt="logo-barbearia" />
       </div>
       <p>Copyright 2023 | Todos direitos reservados.</p>
     </footer>
-    <a class="btn-whatsapp" target="_blank" href="https://api.whatsapp.com/send?phone=5581989975952&text=Agende%20seu%20horário!">
-      <img src="./assets/whatssapp.svg" alt="WhatsApp" />
+    <a data-aos="zoom-in-up" data-aos-delay="400" class="btn-whatsapp" target="_blank" href="https://api.whatsapp.com/send?phone=5581989975952&text=Agende%20seu%20horário!">
+      <img src="../assets/whatssapp.svg" alt="WhatsApp" />
       <span class="tooltip-text">Agende seu horário</span>
     </a>
+
+    <script src="./script.js"></script>
   </body>
 </html>

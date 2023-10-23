@@ -21,7 +21,7 @@ i {
 
 .header-icons {
   display: flex;
-  gap: 14px;
+  gap: 26px;
 }
 
 .header-icons a:hover i {
@@ -298,7 +298,7 @@ i {
 
 .footer-icon {
   display: flex;
-  gap: 8px;
+  gap: 14px;
   color: #ffffff;
 }
 
