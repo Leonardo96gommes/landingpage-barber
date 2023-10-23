@@ -23,7 +23,7 @@ Abra o arquivo index.html em seu editor de código.
 Visualize o arquivo index.html em seu navegador.
 
 ## Autor
-Leonardo Gomes - https://github.com/joao121gf
+Leonardo Gomes - https://github.com/Leonardo96gommes
 
 ## 💬Contato
 * https://github.com/Leonardo96gommes
