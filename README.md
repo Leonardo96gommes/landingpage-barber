@@ -10,7 +10,8 @@ Pagina feita para aprimorar meus conhecimentos
 * Sass
 
 * ## Pré-requisitos
-Antes de começar, você precisará ter os seguintes softwares instalados em sua máquina:
+
+*Antes de começar, você precisará ter os seguintes softwares instalados em sua máquina:
 
 * Um editor de código (Ex: Visual Studio Code)
 
