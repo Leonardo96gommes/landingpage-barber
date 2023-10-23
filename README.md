@@ -16,7 +16,7 @@ Pagina feita para aprimorar meus conhecimentos
 * Um editor de código (Ex: Visual Studio Code)
 
 * ## Instalação
-Para instalar e visualizar a tela de login, siga as seguintes etapas:
+Para instalar e visualizar o site, siga as seguintes etapas:
 
 Clone o repositório do GitHub em sua máquina local.
 Abra o arquivo index.html em seu editor de código.
