@@ -1,4 +1,7 @@
 # landingpage-barber
+
+![Imagem do projeto](./assets/site-barber.png)
+
 Pagina feita para aprimorar meus conhecimentos
 
 [Você pode conferir como ficou o projeto aqui](https://landingpage-barber-mu.vercel.app/)
